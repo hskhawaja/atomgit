@@ -33,7 +33,6 @@ def test_preamble(file):
     """
     document, toc, sections = load_doc(file)
     preamble = document.TextParser.get_toc_header(0).text()
-    print(preamble)
 
     return preamble
 
