@@ -39,7 +39,7 @@ def test_preamble(file):
 
 if __name__ == "__main__":
     path = "/home/david/PycharmProjects/frq-nlp/Data/prospectus"
-    files_parse_error = ["Candriam.pdf", "pictet_sicav.pdf", "pictet_multi.pdf"]
+    files_parse_error = ["Candriam.pdf"]
     
 
     ##1 Parsing error
